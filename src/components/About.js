@@ -8,14 +8,16 @@ class About extends Component {
         return (
         <section id="about">
             <div className="row justify-content-center">
-                <div className="three columns">
+
+                {/* <div className="three columns">
                     <img className="profile-pic"  src="images/profilepic.jpg" alt=""/>
-                </div>
-                <div className="nine columns main-col">
+                </div> */}
+
+                <div className="twelve columns">
                     <h2>About Me</h2>
                     <p>{resumeInfo.aboutme}</p>
-                    <div className="row">
-                        <div className="columns contact-details">
+                    {/* <div className="row"> */}
+                        {/* <div className="twelve columns contact-details">
                             <h2>Contact Details</h2>
                             <p className="address">
                                 <span>{resumeInfo.name}</span><br></br>
@@ -24,9 +26,10 @@ class About extends Component {
                                 <span>{resumeInfo.email}</span><br></br>
                                 <span>{resumeInfo.website}</span>
                             </p>
-                        </div>
-                    </div>
+                        </div> */}
+                    {/* </div> */}
                 </div>
+
             </div>
         </section>
         );

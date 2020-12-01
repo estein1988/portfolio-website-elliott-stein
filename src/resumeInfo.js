@@ -108,35 +108,24 @@ let resumeData = {
         {
         "name":"7-10 Home Split",
         "description":"Django/Python and React web-app",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/home-split.png"
         },
         {
         "name":"OpenCountries",
         "description":"Rails and React web-app",
-        "imgurl":"images/portfolio/project.jpg"
+        "imgurl":"images/OpenCountries.png"
         },
         {
         "name":"Main Street Valuations",
         "description":"Rails and vanilla JS/HTML/CSS app",  
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"images/main-street.png"
         },
-        {
-        "name":"Recalls. It's What's For Dinner.",
-        "description":"Rails and vanilla JS/HTML/CSS app",
-        "imgurl":"images/portfolio/phone.jpg"
-        }
-    ],
-    // "testimonials":
-    // [
-    //     {
-    //     "description":"This is a sample testimonial",
-    //     "name":"Some technical guy"
-    //     },
-    //     {
-    //     "description":"This is a sample testimonial",
-    //     "name":"Some technical guy"
-    //     }
-    // ]
+        // {
+        // "name":"Recalls. It's What's For Dinner.",
+        // "description":"Rails and vanilla JS/HTML/CSS app",
+        // "imgurl":"images/portfolio/phone.jpg"
+        // }
+    ]
 }
 
 export default resumeData

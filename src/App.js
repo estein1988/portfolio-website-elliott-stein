@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 import resumeInfo from './resumeInfo';
 import './App.css';
 
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <Header resumeInfo={resumeInfo}/>
         <About resumeInfo={resumeInfo}/>
+        <Portfolio resumeInfo={resumeInfo}/>
       </div>
     );
   }
