@@ -14,20 +14,8 @@ class About extends Component {
                 </div> */}
 
                 <div className="twelve columns">
-                    <h2>About Me</h2>
-                    <p>{resumeInfo.aboutme}</p>
-                    {/* <div className="row"> */}
-                        {/* <div className="twelve columns contact-details">
-                            <h2>Contact Details</h2>
-                            <p className="address">
-                                <span>{resumeInfo.name}</span><br></br>
-                                <span>{resumeInfo.address}</span><br></br>
-                                <span>{resumeInfo.phone}</span><br></br>
-                                <span>{resumeInfo.email}</span><br></br>
-                                <span>{resumeInfo.website}</span>
-                            </p>
-                        </div> */}
-                    {/* </div> */}
+                    <h2 id="about-me-header">About Me</h2>
+                    <p id="about-me-text">{resumeInfo.aboutme}</p>
                 </div>
 
             </div>

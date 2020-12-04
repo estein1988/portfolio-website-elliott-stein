@@ -14,10 +14,9 @@ class Header extends Component {
                 <ul id="nav" className="nav">
                 <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                 <li><a className="smoothscroll" href="#about">About</a></li>
-                {/* <li><a className="smoothscroll" href="#resume">Resume</a></li> */}
-                <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-                {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
-                <li><a className="smoothscroll" href="#contact">Contact</a></li>
+                <li><a className="smoothscroll" href="#portfolio">Porfolio</a></li>
+                <li><a className="smoothscroll" href="#resume">Resume</a></li>
+                <li><a className="smoothscroll" href="#footer">Contact</a></li>
                 </ul>
             </nav>
 
@@ -28,7 +27,7 @@ class Header extends Component {
                 </h3>
                 <hr/>
                 <ul className="social">
-                    {resumeInfo.socialLinks && resumeInfo.socialLinks.map(
+                    {resumeInfo.socialLinks.map(
                         item => {
                         return(
                                 <li key={item.name}>

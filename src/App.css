@@ -2,11 +2,72 @@
   text-align: center;
 }
 
-.profile-pic{
-  margin: 5rem;
+#about-me-header{
+
+}
+
+#about-me-text{
+  font-size: 16px;
 }
 
 #portfolio-projects-headline{
-  font-size: 30px;
-  margin-bottom: 4rem;
+  font-size: 40px;
+  margin-bottom: 1rem;
+  font: 40px 'opensans-bold', sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#sixteen-columns{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#portfolio{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+#portfolio-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#portfolio-items{
+  box-shadow: 
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  padding: 1rem;
+  width: 48%;
+  margin: 1rem;
+}
+
+#contact-info{
+  color: white;
+  font: 20px 'opensans-bold', sans-serif
+}
+
+#portfolio-title{
+  font: 30px 'opensans-bold', sans-serif;
+}
+
+#portfolio-description{
+  font: 20px 'librebaskerville-italic', serif;
+  margin: 8px;
+  color: black;
+}
+
+#portfolio-links{
+  font: 20px 'opensans-bold', sans-serif;
 }

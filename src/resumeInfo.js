@@ -17,8 +17,8 @@ let resumeData = {
         },
         {
             "name":"medium",
-            "url":"https://estein1988.medium.com/",
-            "className":"fa fa-medium"
+            "url":"https://www.youtube.com/channel/UCB7IDX2G2WQxgUn4lRkdT9g",
+            "className":"fa fa-youtube"
         }
     ],
     "aboutme":"Inquisitive, self-driven full-stack software developer with a passion for large, complex data-driven solutions. My transition from corporate oil & gas to software development was based on my natural enthusiasm towards problem-solving and eagerness to be a life-long learner. My favorite part of every project is the planning process, thinking about everything that I could do with an idea and what that would take, then watching everything come to the screen through code.",
@@ -32,22 +32,19 @@ let resumeData = {
         "UniversityName":"Flatiron School",
         "specialization":"Full Stack Software Development, Ruby on Rails and JavaScript program ",
         "MonthOfPassing":"Nov",
-        "YearOfPassing":"2020",
-        // "Achievements":""
+        "YearOfPassing":"2020"
         },
         {
         "UniversityName":"Western State Colorado University",
         "specialization":"Profressional Land & Resource Management",
         "MonthOfPassing":"May",
-        "YearOfPassing":"2014",
-        // "Achievements":""
+        "YearOfPassing":"2014"
         },
         {
         "UniversityName":"Indiana University",
         "specialization":"Management",
         "MonthOfPassing":"May",
-        "YearOfPassing":"2010",
-        // "Achievements":""
+        "YearOfPassing":"2010"
         }
     ],
     "work":
@@ -56,32 +53,27 @@ let resumeData = {
         "CompanyName":"Noble Energy, Inc.",
         "specialization":"Staff Landman",
         "MonthOfLeaving":"July",
-        "YearOfLeaving":"2020",
-        // "Achievements":""
+        "YearOfLeaving":"2020"
         },
         {
         "CompanyName":"Resource Land Holdings, LP",
         "specialization":"Landman",
         "MonthOfLeaving":"October",
-        "YearOfLeaving":"2017",
-        // "Achievements":""
+        "YearOfLeaving":"2017"
         },
         {
-        "CompanyName":"",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        // "Achievements":""
+        "CompanyName":"American Midstream Partners, LP",
+        "specialization":"Land Analyst",
+        "MonthOfLeaving":"June",
+        "YearOfLeaving":"2016"
         },
         {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        // "Achievements":""
+        "CompanyName":"Hydrocarbon Acquisitions, LLC",
+        "specialization":"Independent Petroleum Landman",
+        "MonthOfLeaving":"June",
+        "YearOfLeaving":"2014"
         }
     ],
-    // "skillsDescription":"Your skills here",
     "skills":
     [
         {
@@ -107,24 +99,40 @@ let resumeData = {
     [
         {
         "name":"7-10 Home Split",
-        "description":"Django/Python and React web-app",
-        "imgurl":"images/home-split.png"
+        "description":"Django | Python | React | PostgreSQL | Material UI | Google Maps API",
+        "imgurl":"images/home-split.png",
+        "hosted": "https://home-split-7-10.firebaseapp.com/login",
+        "front_end": "https://github.com/estein1988/710-home-fe",
+        "back_end":"https://github.com/estein1988/710_home_split_be",
+        "demo":"https://www.youtube.com/watch?v=ijFS5tFKtY4"
         },
         {
         "name":"OpenCountries",
-        "description":"Rails and React web-app",
-        "imgurl":"images/OpenCountries.png"
+        "description":"Ruby on Rails | React | PostgreSQL | Semantic UI | MapBox",
+        "imgurl":"images/OpenCountries.png",
+        "hosted": "https://open-countries.firebaseapp.com/",
+        "front_end": "https://github.com/estein1988/covid-travel-fe",
+        "back_end":"https://github.com/estein1988/covid_travel_be",
+        "demo":"https://www.youtube.com/watch?v=fEkAa672bLw"
         },
         {
         "name":"Main Street Valuations",
-        "description":"Rails and vanilla JS/HTML/CSS app",  
-        "imgurl":"images/main-street.png"
+        "description":"Ruby on Rails | JavaScript | PostgreSQL | Bootstrap | HTML5 | CSS3",  
+        "imgurl":"images/main-street.png",
+        "hosted": "https://main-street-valuation.firebaseapp.com/",
+        "front_end": "https://github.com/estein1988/main_street_frontend",
+        "back_end":"https://github.com/estein1988/covid_travel_be",
+        "demo":"https://www.youtube.com/watch?v=bZAjlKbOnCk"
         },
-        // {
-        // "name":"Recalls. It's What's For Dinner.",
-        // "description":"Rails and vanilla JS/HTML/CSS app",
-        // "imgurl":"images/portfolio/phone.jpg"
-        // }
+        {
+        "name":"Recalls. It's What's for Dinner.",
+        "description":"Ruby on Rails | JavaScript | PostgreSQL | HTML5 | CSS3",
+        "imgurl":"images/recalls.png",
+        "hosted": "",
+        "front_end": "https://github.com/estein1988/fda-food-recalls",
+        "back_end":"https://github.com/estein1988/fda-food-recalls",
+        "demo":"https://www.youtube.com/watch?v=93FAXJ4IsEY"
+        }
     ]
 }
 
