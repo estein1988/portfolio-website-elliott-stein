@@ -10,27 +10,20 @@ export default class Portfolio extends Component {
                 <h4 id="portfolio-projects-headline">Portfolio Projects:</h4>
                 <div id="portfolio-wrapper" className=""> 
                 {resumeInfo.portfolio.map(
-                    item => {
+                    project => {
                         return(
-                        <div id="portfolio-items" className="columns portfolio-item">
+                        <div key={project.name} id="portfolio-items" className="columns portfolio-item">
                             <div className="item-wrap">
-                                {/* <a href="#modal-01"> */}
-                                <img src={`${item.imgurl}`} className="item-img"/>
-                                <div className="overlay">
-                                    {/* <div className="portfolio-item-meta"> */}
-                                        {/* <h5>{item.name}</h5> */}
-                                        {/* <p>{item.description}</p> */}
-                                    {/* </div> */}
-                                </div>
-                                {/* </a> */}
+                                <img alt="" src={`${project.imgurl}`} className="item-img"/>
+                                <div className="overlay"></div>
                             </div>
-                            <h2 id="portfolio-title">{item.name}</h2> 
-                            <p id="portfolio-description">{item.description}</p>
+                            <h2 id="portfolio-title">{project.name}</h2> 
+                            <p id="portfolio-description">{project.description}</p>
                             <div id="portfolio-links">
-                                <a href={item.hosted} target="_blank">Hosted Site</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-                                <a href={item.front_end} target="_blank">Front End</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-                                <a href={item.back_end} target="_blank">Back End</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-                                <a href={item.demo} target="_blank">Demo</a>
+                                <a href={project.hosted} target="_blank" rel="noreferrer">Hosted Site</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                                <a href={project.front_end} target="_blank" rel="noreferrer">Front End</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                                <a href={project.back_end} target="_blank" rel="noreferrer">Back End</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                                <a href={project.demo} target="_blank" rel="noreferrer">Demo</a>
                             </div>
                         </div>
                         )

@@ -10,11 +10,11 @@ class Footer extends Component {
             <div className="row">
                 <div className="twelve columns">
                 <ul className="social-links">
-                    {resumeInfo.socialLinks.map(item => {
+                    {resumeInfo.socialLinks.map(socialLink => {
                         return(
-                            <li>
-                                <a href={item.url}>
-                                <i className={item.className} />
+                            <li key={socialLink.url}>
+                                <a href={socialLink.url}>
+                                <i className={socialLink.className} />
                                 </a>
                             </li>
                         )

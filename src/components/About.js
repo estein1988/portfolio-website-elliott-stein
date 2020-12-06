@@ -9,7 +9,7 @@ class About extends Component {
         <section id="about">
             <div className="row justify-content-center">
 
-                {/* <div className="three columns">
+            {/* <div className="three columns">
                     <img className="profile-pic"  src="images/profilepic.jpg" alt=""/>
                 </div> */}
 

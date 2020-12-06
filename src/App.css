@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-#about-me-header{
-
-}
-
 #about-me-text{
   font-size: 16px;
 }
@@ -60,16 +56,18 @@
 
 #portfolio-title{
   font: 30px 'opensans-bold', sans-serif;
+  margin: 1rem;
 }
 
 #portfolio-description{
   font: 20px 'librebaskerville-italic', serif;
-  margin: 8px;
+  margin: 2rem;
   color: black;
 }
 
 #portfolio-links{
   font: 20px 'opensans-bold', sans-serif;
+  margin: 0.4rem
 }
 
 #nav{

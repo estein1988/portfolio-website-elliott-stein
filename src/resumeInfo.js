@@ -52,24 +52,32 @@ let resumeData = {
         {
         "CompanyName":"Noble Energy, Inc.",
         "specialization":"Staff Landman",
+        "MonthOfStarting":"October",
+        "YearOfStarting":"2017",
         "MonthOfLeaving":"July",
         "YearOfLeaving":"2020"
         },
         {
         "CompanyName":"Resource Land Holdings, LP",
         "specialization":"Landman",
+        "MonthOfStarting":"June",
+        "YearOfStarting":"2016",
         "MonthOfLeaving":"October",
         "YearOfLeaving":"2017"
         },
         {
         "CompanyName":"American Midstream Partners, LP",
         "specialization":"Land Analyst",
+        "MonthOfStarting":"June",
+        "YearOfStarting":"2014",
         "MonthOfLeaving":"June",
         "YearOfLeaving":"2016"
         },
         {
         "CompanyName":"Hydrocarbon Acquisitions, LLC",
         "specialization":"Independent Petroleum Landman",
+        "MonthOfStarting":"February",
+        "YearOfStarting":"2011",
         "MonthOfLeaving":"June",
         "YearOfLeaving":"2014"
         }

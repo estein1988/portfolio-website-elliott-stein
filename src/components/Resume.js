@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-export default  class Resume extends Component {
+
+class Resume extends Component {
     render() {
         let resumeInfo = this.props.resumeInfo;
+        
         return (
         <section id="resume">
             <div className="row education">
@@ -11,18 +13,18 @@ export default  class Resume extends Component {
                 </h1>
                 </div>
                 <div className="nine columns main-col">
-                {resumeInfo.education.map(item => {
+                {resumeInfo.education.map(school => {
                     return(
-                        <div className="row item">
-                        <div className="twelve columns">
-                            <h3>{item.UniversityName}</h3>
-                            <p className="info">
-                            {item.specialization}
-                            <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                            <p>
-                            {item.Achievements}
-                            </p>
-                        </div>
+                        <div key={school.UniversityName} className="row item">
+                            <div className="twelve columns">
+                                <h3>{school.UniversityName}</h3>
+                                <p className="info">
+                                {school.specialization}
+                                <span>&bull;</span> <em key={school.MonthOfPassing} className="date">{school.MonthOfPassing} {school.YearOfPassing}</em></p>
+                                <p>
+                                {school.Achievements}
+                                </p>
+                            </div>
                         </div>
                     )
                 })}
@@ -33,16 +35,16 @@ export default  class Resume extends Component {
                     <h1><span>Work</span></h1>
                 </div>
                 <div className="nine columns main-col">
-                {resumeInfo.work.map(item => {
+                {resumeInfo.work.map(position => {
                     return(
-                        <div className="row item">
+                        <div key={position.CompanyName} className="row item">
                             <div className="twelve columns">
-                                <h3>{item.CompanyName}</h3>
+                                <h3>{position.CompanyName}</h3>
                                 <p className="info">
-                                {item.specialization}
-                                <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                                {position.specialization}
+                                <span>&bull;</span> <em key={position.MonthOfStarting} className="date">{position.MonthOfStarting} {position.YearOfStarting} - {position.MonthOfLeaving} {position.YearOfLeaving}</em></p>
                                 <p>
-                                {item.Achievements}
+                                {position.Achievements}
                                 </p>
                             </div>
                         </div>
@@ -50,41 +52,9 @@ export default  class Resume extends Component {
                 })}
                 </div> 
             </div>
-            {/* <div className="row skill">
-
-                <div className="three columns header-col">
-                <h1><span>Skills</span></h1>
-                </div>
-
-                <div className="nine columns main-col">
-
-                <p>
-                {resumeInfo.skillsDescription}
-                </p>
-
-                    <div className="bars">
-
-                    <ul className="skills">
-                    {
-                    resumeInfo.skills && resumeInfo.skills.map((item) => {
-                        return(
-                        <li>
-                        <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                        </span><em>{item.skillname}</em>
-                        </li>
-                        )
-                    })
-                    }
-
-                        </ul>
-
-                    </div>
-
-                </div>
-
-            </div> */}
-
         </section>
         );
     }
-    }
+}
+
+export default  Resume
