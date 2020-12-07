@@ -1,7 +1,7 @@
 let resumeData = {
     // "imagebaseurl":"",
     "name": "Elliott Stein",
-    "role": "Full Stack Software Developer",
+    "role": "Full Stack Software Developer | JavaScript | React | Django | Python | Ruby on Rails",
     "roleDescription": "",
     "socialLinks":
     [
