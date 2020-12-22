@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMedium } from '@fortawesome/free-brands-svg-icons';
 
 class Header extends Component {
     render() {
@@ -34,6 +36,7 @@ class Header extends Component {
                                     </li>
                                 )
                             })}
+                            <a href="https://estein1988.medium.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon id="medium-header" icon={faMedium} size="2x"/></a>
                         </ul>
                     </div>
                 </div>

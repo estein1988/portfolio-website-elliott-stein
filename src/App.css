@@ -73,3 +73,14 @@
 #nav{
   color: white
 }
+
+#medium-header{
+  color: #fff;
+  margin-bottom: -1.6rem;
+  padding: 1.7rem;
+}
+
+#medium-footer{
+  margin-bottom: -1.6rem;
+  padding: 1.7rem;
+}

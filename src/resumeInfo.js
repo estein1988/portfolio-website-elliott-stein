@@ -16,10 +16,15 @@ let resumeData = {
             "className":"fa fa-github"
         },
         {
-            "name":"medium",
+            "name":"youtube",
             "url":"https://www.youtube.com/channel/UCB7IDX2G2WQxgUn4lRkdT9g",
             "className":"fa fa-youtube"
-        }
+        },
+        // {
+        //     "name":"medium",
+        //     "url":"https://estein1988.medium.com/",
+        //     "className":"fa fa-medium"
+        // }
     ],
     "aboutme":"Inquisitive, self-driven full-stack software developer with a passion for large, complex data-driven solutions. My transition from corporate oil & gas to software development was based on my natural enthusiasm towards problem-solving and eagerness to be a life-long learner. My favorite part of every project is the planning process, thinking about everything that I could do with an idea and what that would take, then watching everything come to the screen through code.",
     "address":"Arvada, Colorado",

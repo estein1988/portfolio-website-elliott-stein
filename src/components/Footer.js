@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faMedium } from '@fortawesome/free-brands-svg-icons';
 
 class Footer extends Component {
 
@@ -19,6 +21,7 @@ class Footer extends Component {
                             </li>
                         )
                     })}
+                    {/* <a href="https://estein1988.medium.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon id="medium-footer" icon={faMedium} size="1x"/></a> */}
                 </ul>
                 </div>
                 <div id="go-top">
