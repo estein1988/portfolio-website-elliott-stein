@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMedium } from '@fortawesome/free-brands-svg-icons';
+import { faMedium, faLinkedin, faYoutube, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 class Header extends Component {
     render() {
@@ -27,16 +27,10 @@ class Header extends Component {
                         <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeInfo.role} {resumeInfo.roleDescription}</h3>
                         <hr/>
                         <ul className="social">
-                            {resumeInfo.socialLinks.map(socialLink => {
-                                return(
-                                    <li key={socialLink.name}>
-                                        <a href={socialLink.url} target="_blank" rel="noreferrer">
-                                            <i className={socialLink.className}></i>
-                                        </a>
-                                    </li>
-                                )
-                            })}
-                            <a href="https://estein1988.medium.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon id="medium-header" icon={faMedium} size="2x"/></a>
+                            <a href="https://github.com/estein1988" target="_blank" rel="noreferrer"><FontAwesomeIcon id="header-icons" icon={faGithub} size="2x"/></a>
+                            <a href="https://www.linkedin.com/in/steinelliott/" target="_blank" rel="noreferrer"><FontAwesomeIcon id="header-icons" icon={faLinkedin} size="2x"/></a>
+                            <a href="https://estein1988.medium.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon id="header-icons" icon={faMedium} size="2x"/></a>
+                            <a href="https://www.youtube.com/channel/UCB7IDX2G2WQxgUn4lRkdT9g" target="_blank" rel="noreferrer"><FontAwesomeIcon id="header-icons" icon={faYoutube} size="2x"/></a>
                         </ul>
                     </div>
                 </div>
