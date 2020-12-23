@@ -52,6 +52,7 @@ class Resume extends Component {
                 })}
                 </div> 
             </div>
+            <a id="full-resume" href="https://drive.google.com/file/d/1gkU697CHRMDxWpU3bbUHM18_ceRGmUOm/view" target="_blank" rel="noreferrer">Download R&#233;sum&#233;</a>
         </section>
         );
     }

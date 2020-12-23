@@ -16,7 +16,7 @@ class Header extends Component {
                         <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                         <li><a className="smoothscroll" href="#about">About</a></li>
                         <li><a className="smoothscroll" href="#portfolio">Porfolio</a></li>
-                        <li><a className="smoothscroll" href="#resume">Resume</a></li>
+                        <li><a className="smoothscroll" href="#resume">R&#233;sum&#233;</a></li>
                         <li><a className="smoothscroll" href="#footer">Contact</a></li>
                     </ul>
                 </nav>

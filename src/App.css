@@ -93,3 +93,8 @@
 #footer-icons:hover { 
   color: #fff; 
 }
+
+#full-resume{
+  font: 50px 'opensans-bold', sans-serif;
+  color: black;
+}
