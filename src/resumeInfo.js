@@ -141,7 +141,7 @@ let resumeData = {
         "name":"Recalls. It's What's for Dinner.",
         "description":"Ruby on Rails | JavaScript | PostgreSQL | HTML5 | CSS3",
         "imgurl":"images/recalls.png",
-        "hosted": "",
+        "hosted": "https://food-recalls-fda.firebaseapp.com/",
         "front_end": "https://github.com/estein1988/fda-food-recalls",
         "back_end":"https://github.com/estein1988/fda-food-recalls",
         "demo":"https://www.youtube.com/watch?v=93FAXJ4IsEY"
