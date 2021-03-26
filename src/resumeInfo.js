@@ -41,7 +41,7 @@ let resumeData = {
         },
         {
         "UniversityName":"Western State Colorado University",
-        "specialization":"Profressional Land & Resource Management",
+        "specialization":"Professional Land & Resource Management",
         "MonthOfPassing":"May",
         "YearOfPassing":"2014"
         },
