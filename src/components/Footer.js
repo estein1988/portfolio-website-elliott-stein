@@ -22,9 +22,9 @@ class Footer extends Component {
                     <a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a>
                 </div>
             </div>
-                <div id="contact-info">
+                {/* <div id="contact-info">
                     Elliott Stein | estein1988@gmail.com | 763-242-7771
-                </div>
+                </div> */}
         </footer>
         );
     };

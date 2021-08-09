@@ -28,8 +28,8 @@ let resumeData = {
     ],
     "aboutme":"Inquisitive, self-driven full-stack software developer with a passion for large, complex data-driven solutions. My transition from corporate oil & gas to software development was based on my natural enthusiasm towards problem-solving and eagerness to be a life-long learner. My favorite part of every project is the planning process, thinking about everything that I could do with an idea and what that would take, then watching everything come to the screen through code.",
     "address":"Arvada, Colorado",
-    "phone": "(763) 242-7771",
-    "email": "estein1988@gmail.com",
+    // "phone": "(763) 242-7771",
+    // "email": "estein1988@gmail.com",
     "website":"",
     "education":
     [
